@@ -1169,7 +1169,7 @@ none of the templates exist.
     {% include ['special_sidebar.html', 'sidebar.html'] ignore missing %}
 
 A variable, with either a template name or template object, can also be
-passed to the statment.
+passed to the statement.
 
 .. _import:
 
@@ -1330,7 +1330,7 @@ for Python objects such as strings and numbers.  The following literals exist:
     to an undefined variable that was considered false),
     all three can now also be written in title case
     (`True`, `False`, and `None`).
-    However, for consistency, (all Jinja identifiers are lowercase)
+    However, for consistency (all Jinja identifiers are lowercase),
     you should use the lowercase versions.
 
 Math
